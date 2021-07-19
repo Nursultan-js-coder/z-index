@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.parent-element {
+  color: rgb(28, 56, 56);
+  border: 1px solid aqua;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgb(11, 119, 83); */
+  position: relative;
+}
+.child-1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(122, 122, 122, 0.3);
+}
+.child-2 {
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+.child-3 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(140, 190, 255, 0.4);
+  color: rgb(189, 3, 3);
+  padding: 30px;
+}

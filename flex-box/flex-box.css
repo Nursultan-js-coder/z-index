@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+}
+.app {
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  border: 1px solid rgb(251, 139, 158);
+}
+.flex-box {
+  background-color: rgb(206, 35, 134);
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-radius: 1%;
+  margin: 10px;
+  display: flex;
+  justify-content: start;
+  width: 50%;
+  max-width: 600px;
+}
+
+.flex-box-1 {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.flex-box-2 {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.flex-box-3 {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.item {
+  background-color: rgb(255, 198, 11);
+  color: #333;
+  border: 2px solid #222;
+  border-radius: 1%;
+  padding: 20px;
+  margin: 10px;
+}
+.item-sm {
+  width: 60px;
+}
+.item-md {
+  width: 120px;
+}
+.item-sm-1 {
+  width: 60px;
+  height: 60px;
+}
+.item-md-1 {
+  width: 60px;
+  height: 120px;
+}
+.item-1 {
+  order: 6;
+}
+.item-2 {
+  order: 5;
+}
+.item-3 {
+  order: 4;
+}
+.item-4 {
+  order: 3;
+}
+.item-5 {
+  order: 2;
+}
+.item-6 {
+  order: 1;
+}
+.item-7 {
+  order: 7;
+}
+.item-8 {
+  order: 8;
+  flex-grow: 2;
+}
